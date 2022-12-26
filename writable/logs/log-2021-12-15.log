@@ -1,0 +1,635 @@
+CRITICAL - 2021-12-15 15:06:12 --> Cannot redeclare App\Controllers\Cart::addtocartAjax()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-15 15:07:06 --> Cannot redeclare App\Controllers\Cart::addtocartAjax()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-15 15:07:35 --> Cannot redeclare App\Controllers\Cart::addtocartAjax()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-15 15:08:19 --> Call to undefined function App\Controllers\vc_addtocart()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-15 15:09:58 --> Using $this when not in object context
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:10:21 --> Using $this when not in object context
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:10:45 --> Undefined index: id
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 27, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:11:27 --> Using $this when not in object context
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(27): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:12:33 --> array_filter() expects parameter 2 to be a valid callback, class '10_231_1103.5' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', '/home/joyarico/...', 175, Array)
+#1 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(175): array_filter(Array, Array)
+#2 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(27): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#3 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-15 15:13:09 --> Using $this when not in object context
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(27): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:16:39 --> Call to undefined function get_instance()
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(27): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:16:52 --> Call to undefined function get_instance()
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(27): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:18:19 --> Call to undefined function get_instance()
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:21:25 --> Creating default object from empty value
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home/joyarico/...', 9, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:21:59 --> Undefined variable: _ci
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 10, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:22:38 --> Creating default object from empty value
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home/joyarico/...', 104, Array)
+#1 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(31): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#2 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array, Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 15:23:16 --> Creating default object from empty value
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home/joyarico/...', 104, Array)
+#1 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(31): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#2 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array, Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 15:24:38 --> Undefined variable: _ci
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 104, Array)
+#1 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(31): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5', NULL)
+#2 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array, Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 15:25:00 --> array_filter() expects parameter 2 to be a valid callback, class 'App\Controllers\Cart' does not have a method 'arrayFilter1'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', '/home/joyarico/...', 181, Array)
+#1 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(181): array_filter(Array, Array)
+#2 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(31): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5', Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): vc_addtocart(10, Array, Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-15 15:29:38 --> Undefined variable: db
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 74, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:29:54 --> Too few arguments to function arrmerge(), 7 passed in /home/joyarico/public_html/new/app/Controllers/Cart.php on line 85 and exactly 8 expected
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(85): arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:30:42 --> Undefined property: App\Controllers\Cart::$id
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 211, Array)
+#1 [internal function]: App\Controllers\Cart->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Cart.php(207): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/app/Controllers/Cart.php(85): App\Controllers\Cart->arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-15 15:33:35 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 209, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(85): App\Controllers\Cart->arrmerge(Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), Object(stdClass), '10_231_1103.5')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 15:34:24 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 87, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:46:52 --> Undefined index: id
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 84, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:47:09 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 84, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:47:30 --> Trying to get property 'id' of non-object
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 84, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:51:49 --> Undefined variable: db
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 75, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 15:59:23 --> Class 'App\Models\Ems\CartModel' not found
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(106): vc_getcartitems()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 16:00:57 --> Class 'App\Models\Ems\CartModel' not found
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(106): vc_getcartitems()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 16:01:32 --> Undefined variable: CartModel
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 130, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(106): vc_getcartitems()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 16:05:14 --> Using $this when not in object context
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(101): vc_addtocart(Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 16:05:30 --> Unknown column 'name' in 'field list'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ca...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/app/Controllers/Cart.php(101): vc_addtocart(Array)
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-15 16:11:26 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 23, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(102): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 16:27:57 --> Undefined index: center_diamond
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 255, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Products.php(241): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockfilterajax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 16:27:59 --> Undefined index: center_diamond
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 255, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Products.php(241): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockfilterajax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 16:28:02 --> Undefined index: center_diamond
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 255, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Products.php(241): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockfilterajax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 16:28:03 --> Undefined index: center_diamond
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 255, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Products.php(241): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockfilterajax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 16:28:05 --> Undefined index: center_diamond
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 255, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Products.php(241): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockfilterajax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 16:28:06 --> Undefined index: center_diamond
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 255, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Products.php(241): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockfilterajax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 16:28:57 --> Undefined index: center_diamond
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 255, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter1(Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Products.php(241): array_filter(Array, Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockfilterajax()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 16:32:07 --> Undefined variable: post_data
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 128, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(107): vc_getcartitems()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 17:12:06 --> Undefined property: CodeIgniter\View\View::$ion_auth
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 6, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:13:56 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 16, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:14:07 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 16, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:14:26 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 16, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:14:45 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 16, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:16:13 --> Trying to get property 'total_productcount' of non-object
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 8, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:17:06 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-15 17:18:15 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-15 17:20:26 --> Undefined variable: alias
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 40, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:23:39 --> Undefined variable: product_details
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 41, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:23:56 --> Undefined variable: product_id
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 74, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:25:04 --> Undefined variable: coupon_id
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 80, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:25:21 --> Undefined variable: coupon_id
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 80, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:27:38 --> Undefined variable: coupon_id
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 80, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:28:14 --> Undefined variable: sum
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 103, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:29:46 --> Undefined variable: sum
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 229, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:30:08 --> Undefined variable: user
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 256, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 17:40:46 --> A non well formed numeric value encountered
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', '/home/joyarico/...', 231, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->removecart('10_231_1303.5')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 17:45:24 --> Undefined property: stdClass::$type
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 63, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 18:56:21 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/pages/...')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Products_set.php(22): view('frontend/pages/...', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products_set->index()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products_set))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 18:56:32 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/pages/...')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Products_set.php(22): view('frontend/pages/...', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products_set->index()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products_set))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-15 19:11:54 --> Undefined variable: controller
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/products_set/product_list.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 57, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products_set.php(17): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products_set->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products_set))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 19:12:34 --> Undefined variable: controller
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/products_set/product_list.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 222, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products_set.php(17): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products_set->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products_set))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 19:12:57 --> Undefined variable: controller
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/products_set/product_list.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 245, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products_set.php(17): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products_set->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products_set))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 19:14:23 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 39, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('demo-set-testin...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 19:14:28 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 39, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('demo-set-testin...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 19:15:28 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Products_set.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 48, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products_set->productdetail('demo-set-testin...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products_set))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 19:16:20 --> Undefined variable: size
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/products_set/product_single.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 161, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products_set.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products_set->productdetail('demo-set-testin...')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products_set))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-15 19:25:26 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Categories.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 39, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Categories->products('products_set')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-15 19:41:57 --> Undefined index: color
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 35, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(159): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax1()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-15 19:42:02 --> Undefined index: color
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 35, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(159): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax1()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

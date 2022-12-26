@@ -1,0 +1,27 @@
+CRITICAL - 2022-12-08 02:29:44 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/HTTP/CLIRequest.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Applications/X...', 205)
+#1 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/HTTP/CLIRequest.php(70): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Config/Services.php(133): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Config/BaseService.php(192): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Config/Services.php(128): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#5 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/CodeIgniter.php(589): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#6 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->getRequestObject()
+#7 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/CLI/Console.php(61): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/sknois/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2022-12-08 02:29:44 --> Uncaught ErrorException: Undefined variable $viewFile in /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Debug/Exceptions.php:278
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Debug/Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 278)
+#1 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Debug/Exceptions.php(278): include()
+#2 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Debug/Exceptions.php:278
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sknois/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

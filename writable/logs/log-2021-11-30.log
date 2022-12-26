@@ -1,0 +1,18 @@
+CRITICAL - 2021-11-30 16:03:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/joyarico/public_html/joyari_new/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/joyarico/public_html/joyari_new/app/Controllers/Home.php(9): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 16:07:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/joyarico/public_html/joyari_new/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/joyarico/public_html/joyari_new/app/Controllers/Home.php(9): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

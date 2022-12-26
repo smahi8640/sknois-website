@@ -1,0 +1,432 @@
+CRITICAL - 2021-10-28 16:13:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Home.php(9): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 16:59:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/User.php(46): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\User->log()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:01:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/User.php(46): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\User->log()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:09:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/User.php(46): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\User->log()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:09:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/User.php(46): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\User->log()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:14:58 --> Table 'reselorr_joyari.productselections' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select count(*)...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Dashboard.php(16): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Dashboard->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:16:35 --> Table 'reselorr_joyari.productselections' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select count(*)...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Dashboard.php(16): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Dashboard->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:22:27 --> Table 'reselorr_joyari.brands' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select count(*)...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Dashboard.php(17): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Dashboard->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:22:37 --> Undefined variable: enquiry
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 29, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/ind...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Dashboard.php(18): view('admin/pages/ind...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Dashboard->index()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 17:24:52 --> Table 'reselorr_joyari.homeslider' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from h...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from h...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from h...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Homeslider.php(19): CodeIgniter\Database\BaseConnection->query('select * from h...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Homeslider->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homeslider))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:25:54 --> Undefined variable: s_menu
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/partial/sidemenu.php(377): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 377, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/View/View.php(487): CodeIgniter\View\View->render('admin/partial/s...', NULL, true)
+#4 /home1/reselorr/public_html/joyari/app/Views/admin/pages/index.php(14): CodeIgniter\View\View->include('admin/partial/s...')
+#5 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#6 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/ind...', Array, true)
+#8 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Dashboard.php(18): view('admin/pages/ind...', Array)
+#9 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Dashboard->index()
+#10 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#11 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-28 17:26:15 --> Table 'reselorr_joyari.settings' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from s...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Settings.php(18): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Settings->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:34:03 --> Undefined variable: istyle
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/partial/sidemenu.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 270, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/View/View.php(487): CodeIgniter\View\View->render('admin/partial/s...', NULL, true)
+#4 /home1/reselorr/public_html/joyari/app/Views/admin/pages/media.php(13): CodeIgniter\View\View->include('admin/partial/s...')
+#5 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#6 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/med...', Array, true)
+#8 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Media.php(18): view('admin/pages/med...', Array)
+#9 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Media->index()
+#10 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Media))
+#11 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-28 17:38:13 --> Table 'reselorr_joyari.homeslider' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from h...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from h...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from h...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Homeslider.php(19): CodeIgniter\Database\BaseConnection->query('select * from h...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Homeslider->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homeslider))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:38:45 --> Unknown column 'display_order' in 'order clause'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from s...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Homeslider.php(19): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Homeslider->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homeslider))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:41:19 --> Unknown column 'id' in 'where clause'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from s...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Siteconfiguration.php(18): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Siteconfiguration->index()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siteconfiguration))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:41:55 --> filesize(): stat failed for backup-on-2021-10-28-17-41-55.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home1/reselorr...', 189, Array)
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Siteconfiguration.php(189): filesize('backup-on-2021-...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Siteconfiguration->backup()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siteconfiguration))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:41:57 --> filesize(): stat failed for backup-on-2021-10-28-17-41-57.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home1/reselorr...', 189, Array)
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Siteconfiguration.php(189): filesize('backup-on-2021-...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Siteconfiguration->backup()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siteconfiguration))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:42:04 --> filesize(): stat failed for backup-on-2021-10-28-17-42-04.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home1/reselorr...', 189, Array)
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Siteconfiguration.php(189): filesize('backup-on-2021-...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Siteconfiguration->backup()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siteconfiguration))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:42:06 --> filesize(): stat failed for backup-on-2021-10-28-17-42-06.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home1/reselorr...', 189, Array)
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Siteconfiguration.php(189): filesize('backup-on-2021-...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Siteconfiguration->backup()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siteconfiguration))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-28 17:45:02 --> Table 'reselorr_joyari.brands' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from b...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from b...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from b...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(55): CodeIgniter\Database\BaseConnection->query('select * from b...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:46:31 --> Table 'reselorr_joyari.brands' doesn't exist
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from b...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from b...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from b...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(55): CodeIgniter\Database\BaseConnection->query('select * from b...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:46:52 --> Undefined variable: record
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(433): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 433, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(61): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 17:47:26 --> Undefined variable: record
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(773): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 773, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(61): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 17:48:06 --> Undefined variable: record
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 815, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(61): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 17:48:38 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-28 17:58:33 --> Unknown column 'is_type' in 'where clause'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from c...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from c...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from c...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Forms.php(16): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Forms->contact()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forms))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:58:34 --> Unknown column 'is_type' in 'where clause'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from c...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from c...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from c...')
+#3 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Forms.php(16): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Forms->contact()
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forms))
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-28 17:59:23 --> Invalid file: admin/pages/contact/index.php
+#0 /home1/reselorr/public_html/joyari/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/con...')
+#1 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/con...', Array, true)
+#2 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Forms.php(17): view('admin/pages/con...', Array)
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Forms->contact()
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forms))
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-28 17:59:50 --> CodeIgniter\View\View::main(): Failed opening required '/home1/reselorr/public_html/joyari/app/views/admin1/partial/head.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-28 18:00:29 --> CodeIgniter\View\View::main(): Failed opening required '/home1/reselorr/public_html/joyari/app/views/admin/partial/head.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-28 18:07:12 --> Undefined variable: selected1
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 79, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(61): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:07:42 --> Undefined variable: categoriestree
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 91, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(61): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:08:14 --> Undefined variable: categoriestree
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 91, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(62): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:08:17 --> Undefined variable: categoriestree
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 91, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(62): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:08:48 --> Undefined variable: labels
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 110, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(62): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:11:38 --> Undefined variable: labels
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 110, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(65): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:12:13 --> Trying to get property 'id' of non-object
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home1/reselorr...', 113, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:12:29 --> Undefined variable: rel_products
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 129, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:21:54 --> Undefined variable: record
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(769): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 769, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:22:13 --> Undefined variable: product_images
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(842): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 842, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:24:17 --> Undefined variable: product_yellow_images
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(845): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 845, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:25:39 --> Undefined variable: record
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 1099, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-28 18:26:53 --> Undefined variable: record
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(1184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 1184, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

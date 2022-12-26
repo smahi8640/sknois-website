@@ -1,0 +1,134 @@
+CRITICAL - 2021-12-17 17:23:26 --> Undefined index: 10_231_1103.5
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 82, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 17:23:39 --> Undefined index: 10_231_1103.5
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 82, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 17:36:02 --> Column 'price' cannot be null
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ca...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/app/Controllers/Cart.php(163): vc_addtocart(Array)
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax1()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 17:36:59 --> Column 'price' cannot be null
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ca...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/app/Controllers/Cart.php(163): vc_addtocart(Array)
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax1()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 17:37:20 --> A non-numeric value encountered
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/joyarico/...', 34, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(163): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax1()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-17 19:25:22 --> Undefined index: color
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 167, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax1()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 19:41:59 --> Undefined index: product_stock_id
+#0 /home/joyarico/public_html/new/app/Controllers/Cart.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 182, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax1()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 19:44:24 --> Undefined index: product_set_id
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 28, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(99): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-17 19:44:27 --> Undefined index: product_set_id
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 28, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(99): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-17 19:44:35 --> Undefined index: product_set_id
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 28, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(99): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-17 19:45:30 --> Undefined index: product_set_id
+#0 /home/joyarico/public_html/new/app/Helpers/cart_helper.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 28, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Cart.php(99): vc_addtocart(Array)
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->addtocartAjax()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-17 19:53:14 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-17 19:55:04 --> Trying to get property 'image' of non-object
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 114, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-17 19:55:29 --> Undefined index: image
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 114, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-17 19:57:04 --> Undefined variable: product
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/cart/cart.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 115, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Cart.php(57): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Cart->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

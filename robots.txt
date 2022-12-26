@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /writable/
+Disallow: /vendor/
+Disallow: /system/
+Disallow: /vendor/
+Sitemap: https://joyari.com/sitemap.xml

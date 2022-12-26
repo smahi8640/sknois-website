@@ -1,0 +1,18 @@
+CRITICAL - 2021-09-28 21:55:50 --> Call to undefined method CodeIgniter\Email\Email::SMTPPort()
+#0 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(931): App\Controllers\Contact->send()
+#1 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#2 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/bebabybridal/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-28 21:55:56 --> Call to undefined method CodeIgniter\Email\Email::SMTPPort()
+#0 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(931): App\Controllers\Contact->send()
+#1 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#2 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/bebabybridal/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-28 21:56:38 --> Call to undefined method CodeIgniter\Email\Email::SMTPPort()
+#0 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(931): App\Controllers\Contact->send()
+#1 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#2 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/bebabybridal/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

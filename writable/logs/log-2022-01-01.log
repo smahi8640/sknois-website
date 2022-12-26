@@ -1,0 +1,22 @@
+CRITICAL - 2022-01-01 20:06:16 --> Undefined variable: selected1
+#0 /home/joyarico/public_html/new/app/Views/admin/pages/products/add.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 239, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Admin/Products.php(67): view('admin/pages/pro...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 20:06:26 --> Undefined variable: selected1
+#0 /home/joyarico/public_html/new/app/Views/admin/pages/products/add.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 239, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Admin/Products.php(67): view('admin/pages/pro...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

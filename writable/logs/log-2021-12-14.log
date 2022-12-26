@@ -1,0 +1,35 @@
+CRITICAL - 2021-12-14 19:32:00 --> Invalid argument supplied for foreach()
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/joyarico/...', 63, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 19:45:01 --> Call to a member function getResultArray() on bool
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1-testing')
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-14 20:08:04 --> Unknown column 'meta_tag' in 'field list'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ca...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/joyarico/public_html/new/app/Controllers/Admin/Categories.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Admin\Categories->add()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 20:08:52 --> Unknown column 'created_at' in 'field list'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ca...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/joyarico/public_html/new/app/Controllers/Admin/Categories.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Admin\Categories->add()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

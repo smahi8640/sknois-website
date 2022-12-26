@@ -1,0 +1,12 @@
+CRITICAL - 2021-09-16 19:54:27 --> Call to a member function getResultArray() on bool
+#0 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(931): App\Controllers\Storelocator->index()
+#1 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storelocator))
+#2 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/bebabybridal/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-16 19:54:33 --> Call to a member function getResultArray() on bool
+#0 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(931): App\Controllers\Storelocator->index()
+#1 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storelocator))
+#2 /home/joyarico/public_html/bebabybridal/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/bebabybridal/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

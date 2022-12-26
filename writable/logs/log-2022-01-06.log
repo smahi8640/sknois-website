@@ -1,0 +1,478 @@
+CRITICAL - 2022-01-06 16:41:25 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/login.php')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('user/login', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Users.php(254): view('user/login', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->login()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-06 16:42:41 --> Undefined property: CodeIgniter\View\View::$session
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/user/login.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 7, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(254): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->login()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 16:42:57 --> Call to undefined function form_error()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Users.php(254): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->login()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 16:46:34 --> Trying to get property 'customer_state' of non-object
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 260, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 16:47:36 --> Trying to get property 'customer_state' of non-object
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 260, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 16:47:37 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/register.p...')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('user/register', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Users.php(399): view('user/register', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->register()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-06 16:48:59 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fontend/pages/u...')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('fontend/pages/u...', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Users.php(396): view('fontend/pages/u...', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->register()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-06 16:51:12 --> Undefined variable: current_user
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/user/register.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 86, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(396): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->register()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 16:52:52 --> Undefined variable: captcha
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/user/register.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 61, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(396): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->register()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 16:57:43 --> Undefined property: App\Controllers\Users::$CartModel
+#0 /home/joyarico/public_html/new/app/Controllers/Users.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 188, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->login()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 17:03:39 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/profile.ph...')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('user/profile', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Users.php(541): view('user/profile', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->profile()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-06 17:14:19 --> Trying to get property 'id' of non-object
+#0 /home/joyarico/public_html/new/app/Controllers/Users.php(423): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 423, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->profile()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 17:15:45 --> Trying to get property 'id' of non-object
+#0 /home/joyarico/public_html/new/app/Controllers/Users.php(423): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 423, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->profile()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 17:16:29 --> Undefined index: name
+#0 /home/joyarico/public_html/new/app/Controllers/Users.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 196, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->login()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 17:17:14 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/profile.ph...')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('user/profile', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Users.php(480): view('user/profile', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->profile()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-06 17:18:28 --> Undefined property: CodeIgniter\View\View::$session
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/user/profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 6, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(480): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->profile()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 17:19:13 --> Call to undefined function form_error()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Users.php(480): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->profile()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 17:19:30 --> Call to undefined function form_error()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Users.php(480): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->profile()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 17:23:01 --> Table 'joyarico_joyari_new.db_ems_orders' doesn't exist
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from d...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from d...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from d...')
+#3 /home/joyarico/public_html/new/app/Controllers/Users.php(497): CodeIgniter\Database\BaseConnection->query('select * from d...')
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 17:23:30 --> Unknown column 'created_at' in 'order clause'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from o...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from o...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from o...')
+#3 /home/joyarico/public_html/new/app/Controllers/Users.php(497): CodeIgniter\Database\BaseConnection->query('select * from o...')
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 17:23:52 --> Undefined property: CodeIgniter\View\View::$session
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/order_history.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 26, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(502): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 17:24:07 --> Undefined variable: records
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/order_history.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 30, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(502): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 17:24:37 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/order_history.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 31, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(502): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 17:24:55 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/order_history.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 31, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(502): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 17:25:57 --> Undefined property: stdClass::$options
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/order_history.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 41, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(502): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 17:29:30 --> Undefined property: stdClass::$img
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/order_history.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 46, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Users.php(502): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Users->myorders()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 18:28:15 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Categories.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 56, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Categories->ajax('getsearchedprod...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 18:29:57 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Categories.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 56, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Categories->ajax('getsearchedprod...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 18:30:02 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Categories.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 56, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Categories->ajax('getsearchedprod...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 18:30:29 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Categories.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 56, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Categories->ajax('getsearchedprod...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 18:33:35 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Categories.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 56, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Categories->ajax('getsearchedprod...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 18:33:39 --> Undefined offset: 0
+#0 /home/joyarico/public_html/new/app/Controllers/Categories.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 56, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Categories->ajax('getsearchedprod...')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 18:34:54 --> Undefined variable: cat
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/search/product_list.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 45, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(348): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->getsearchedproducts()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 18:40:09 --> Undefined variable: alias
+#0 /home/joyarico/public_html/new/app/Controllers/Products.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 356, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->searchajax('demo')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 18:53:27 --> Invalid argument supplied for foreach()
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/search/product_filter.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/joyarico/...', 17, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(363): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->searchajax('demo')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 18:53:40 --> Invalid argument supplied for foreach()
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/search/product_filter.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/joyarico/...', 17, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(363): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->searchajax('demo')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:09:11 --> Undefined index: alias
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/search/product_filter.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 99, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(363): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->searchajax('demo')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:09:21 --> Undefined index: alias
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/search/product_filter.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 99, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(363): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->searchajax('demo')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:10:56 --> Unknown column 'intro_imaage' in 'field list'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT id,title...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,title...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,title...')
+#3 /home/joyarico/public_html/new/app/Controllers/Products.php(359): CodeIgniter\Database\BaseConnection->query('SELECT id,title...')
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->searchajax('demo')
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 19:11:12 --> Undefined index: style_no
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/search/product_filter.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 99, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(363): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->searchajax('demo')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:32:33 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/content/about.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 25, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Content.php(12): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Content->about()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:33:38 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Content.php(12): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Content->about()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 19:45:17 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/content/privacy.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 25, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Content.php(30): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Content->privacy()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:45:35 --> Undefined variable: siteconfiguration
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/content/privacy.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 36, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Content.php(30): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Content->privacy()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:53:02 --> Table 'joyarico_joyari_new.settings' doesn't exist
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from s...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 /home/joyarico/public_html/new/app/Controllers/Contact.php(13): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Contact->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 19:55:12 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/contact.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 12, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Contact.php(15): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Contact->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:55:57 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/contact.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 42, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Contact.php(15): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Contact->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:56:29 --> Undefined property: CodeIgniter\View\View::$ion_auth
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/contact.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 65, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Contact.php(15): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Contact->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:57:57 --> Trying to get property 'first_name' of non-object
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/contact.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 72, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Contact.php(15): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Contact->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-06 19:59:10 --> Invalid file: {0}
+#0 /home/joyarico/public_html/new/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/pages/...')
+#1 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#2 /home/joyarico/public_html/new/app/Controllers/Content.php(57): view('frontend/pages/...', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Content->blog()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

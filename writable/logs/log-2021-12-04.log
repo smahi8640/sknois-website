@@ -1,0 +1,12 @@
+CRITICAL - 2021-12-04 20:03:34 --> Call to a member function getInsertID() on bool
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-04 20:06:21 --> Call to a member function insertID() on bool
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

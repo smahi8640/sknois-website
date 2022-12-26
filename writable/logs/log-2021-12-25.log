@@ -1,0 +1,312 @@
+CRITICAL - 2021-12-25 15:45:59 --> Call to a member function logged_in() on null
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 15:46:28 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 23, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 15:48:03 --> Undefined property: CodeIgniter\View\View::$cart
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout_guest.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 3, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 15:49:12 --> Undefined variable: current_user
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout_guest.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 108, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 15:50:01 --> Call to undefined function form_error()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-25 15:50:48 --> Call to undefined function form_error()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-25 15:56:27 --> Undefined variable: sum
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout_guest.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 150, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 15:57:22 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout_guest.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 150, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 15:57:41 --> Array to string conversion
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout_guest.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/joyarico/...', 156, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 15:58:15 --> Trying to get property 'total_price' of non-object
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout_guest.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 150, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 16:02:08 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(461): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 461, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:03:09 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(461): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 461, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:06:45 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(461): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 461, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:08:53 --> Request URI segment is out of range: {0}
+#0 /home/joyarico/public_html/new/system/HTTP/URI.php(611): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout_guest.php(47): CodeIgniter\HTTP\URI->getSegment(2)
+#2 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#3 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#5 /home/joyarico/public_html/new/app/Controllers/Checkout.php(28): view('frontend/pages/...', Array)
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-25 16:09:17 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(461): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 461, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:29:09 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 401, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:30:24 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 401, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:31:17 --> Undefined property: App\Controllers\Checkout::$input
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 341, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->guestregister()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:32:39 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 401, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:32:48 --> Argument 1 passed to IonAuth\Models\IonAuthModel::login() must be of the type string, null given
+#0 [internal function]: IonAuth\Models\IonAuthModel->login(NULL, '123password', 1, 'username')
+#1 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(104): call_user_func_array(Array, Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Checkout.php(318): IonAuth\Libraries\IonAuth->__call('login', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->login()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-25 16:38:56 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(405): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 405, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:39:03 --> Argument 1 passed to IonAuth\Models\IonAuthModel::login() must be of the type string, null given
+#0 [internal function]: IonAuth\Models\IonAuthModel->login(NULL, 'password123', 1, 'username')
+#1 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(104): call_user_func_array(Array, Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Checkout.php(322): IonAuth\Libraries\IonAuth->__call('login', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->login()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-25 16:39:34 --> Argument 1 passed to IonAuth\Models\IonAuthModel::login() must be of the type string, null given
+#0 [internal function]: IonAuth\Models\IonAuthModel->login(NULL, 'password123', 1)
+#1 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(104): call_user_func_array(Array, Array)
+#2 /home/joyarico/public_html/new/app/Controllers/Checkout.php(322): IonAuth\Libraries\IonAuth->__call('login', Array)
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->login()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-25 16:40:32 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(405): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 405, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 16:48:22 --> Undefined property: CodeIgniter\View\View::$cart
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 4, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(30): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 16:49:06 --> Call to undefined function getCountryList()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Checkout.php(30): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-25 16:51:21 --> Class 'App\Models\Ems\CartModel' not found
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(903): App\Controllers\Users->__construct()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 17:02:30 --> Class 'App\Models\Ems\CartModel' not found
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(903): App\Controllers\Users->__construct()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-25 17:03:18 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(416): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 416, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 17:03:27 --> Undefined property: App\Controllers\Checkout::$input
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 356, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->guestregister()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 17:07:19 --> Undefined variable: identityColumn
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(357): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 357, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->guestregister()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 17:08:18 --> Cannot add or update a child row: a foreign key constraint fails (`joyarico_joyari_new`.`users_groups`, CONSTRAINT `fk_users_groups_groups1` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION)
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1637): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(857): IonAuth\Models\IonAuthModel->addToGroup(Array, 198)
+#6 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(221): IonAuth\Models\IonAuthModel->register('email', '$2y$10$Sfh.FKJJ...', 'abdeali@vcarete...', Array, Array)
+#7 /home/joyarico/public_html/new/app/Controllers/Checkout.php(362): IonAuth\Libraries\IonAuth->register('email', 'abdeali@vcarete...', 'abdeali@vcarete...', Array, Array)
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->guestregister()
+#9 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-25 17:11:40 --> Cannot add or update a child row: a foreign key constraint fails (`joyarico_joyari_new`.`users_groups`, CONSTRAINT `fk_users_groups_groups1` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION)
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(1637): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(857): IonAuth\Models\IonAuthModel->addToGroup(Array, 199)
+#6 /home/joyarico/public_html/new/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(221): IonAuth\Models\IonAuthModel->register('abdeali@vcarete...', '$2y$10$pIp8Y1um...', 'abdeali@vcarete...', Array, Array)
+#7 /home/joyarico/public_html/new/app/Controllers/Checkout.php(364): IonAuth\Libraries\IonAuth->register('abdeali@vcarete...', 'abdeali@vcarete...', 'abdeali@vcarete...', Array, Array)
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->guestregister()
+#9 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-25 19:35:49 --> Undefined property: stdClass::$type
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/products/product_single.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 296, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(48): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('pendant1-PS0001')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-25 19:51:03 --> Trying to get property 'metal' of non-object
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/products/product_single.php(292): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 292, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Products.php(48): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('pendant1-PS0001')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

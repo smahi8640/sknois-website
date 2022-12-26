@@ -1,0 +1,50 @@
+CRITICAL - 2021-10-07 20:36:50 --> Call to a member function query() on null
+#0 /home1/reselorr/public_html/bebaby/system/View/View.php(230): include()
+#1 /home1/reselorr/public_html/bebaby/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home1/reselorr/public_html/bebaby/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#3 /home1/reselorr/public_html/bebaby/app/Controllers/Admin/Products.php(62): view('admin/pages/pro...', Array)
+#4 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('931')
+#5 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-07 20:41:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Admin\Products->addstock()
+#1 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-07 20:49:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Admin\Products->addstock()
+#1 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-07 20:49:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Admin\Products->addstock()
+#1 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-07 20:52:21 --> Undefined property: stdClass::$product_sku
+#0 /home1/reselorr/public_html/bebaby/app/Views/admin/pages/products/add.php(803): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/reselorr...', 803, Array)
+#1 /home1/reselorr/public_html/bebaby/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/bebaby/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/bebaby/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/bebaby/app/Controllers/Admin/Products.php(62): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('931')
+#6 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 20:52:28 --> Undefined property: stdClass::$product_sku
+#0 /home1/reselorr/public_html/bebaby/app/Views/admin/pages/products/add.php(803): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/reselorr...', 803, Array)
+#1 /home1/reselorr/public_html/bebaby/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/bebaby/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/bebaby/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/bebaby/app/Controllers/Admin/Products.php(62): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('931')
+#6 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,266 @@
+CRITICAL - 2021-12-03 15:02:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 15:03:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 15:06:29 --> Trying to get property 'video' of non-object
+#0 /home/joyarico/public_html/joyari_new/app/Views/frontend/pages/products/product_single.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 83, Array)
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 15:06:44 --> Trying to get property 'intro_image' of non-object
+#0 /home/joyarico/public_html/joyari_new/app/Views/frontend/pages/products/product_single.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 86, Array)
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 15:07:16 --> Undefined variable: product_details
+#0 /home/joyarico/public_html/joyari_new/app/Views/frontend/pages/products/product_single.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 120, Array)
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 15:10:12 --> Undefined index: final_price
+#0 /home/joyarico/public_html/joyari_new/app/Views/frontend/pages/products/product_single.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/joyarico/...', 151, Array)
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 15:23:04 --> Trying to get property 'id' of non-object
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Admin/Products.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 237, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:23:17 --> Trying to get property 'id' of non-object
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Admin/Products.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 246, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:24:09 --> Trying to get property 'id' of non-object
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Admin/Products.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 246, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:35:00 --> Table 'joyarico_joyari_new.ci_session' doesn't exist
+#0 /home/joyarico/public_html/joyari_new/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `data`\nF...')
+#1 /home/joyarico/public_html/joyari_new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 /home/joyarico/public_html/joyari_new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 /home/joyarico/public_html/joyari_new/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 /home/joyarico/public_html/joyari_new/system/Session/Handlers/DatabaseHandler.php(155): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('15f30d5b464d1b6...')
+#6 /home/joyarico/public_html/joyari_new/system/Session/Session.php(1001): session_start()
+#7 /home/joyarico/public_html/joyari_new/system/Session/Session.php(249): CodeIgniter\Session\Session->startSession()
+#8 /home/joyarico/public_html/joyari_new/system/Config/Services.php(736): CodeIgniter\Session\Session->start()
+#9 /home/joyarico/public_html/joyari_new/system/Config/BaseService.php(192): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 /home/joyarico/public_html/joyari_new/system/Config/Services.php(721): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#11 /home/joyarico/public_html/joyari_new/system/Common.php(1053): CodeIgniter\Config\Services::session()
+#12 /home/joyarico/public_html/joyari_new/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): session()
+#13 /home/joyarico/public_html/joyari_new/app/Controllers/BaseController.php(38): IonAuth\Libraries\IonAuth->__construct()
+#14 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#15 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#16 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2021-12-03 15:39:57 --> Argument 1 passed to IonAuth\Models\IonAuthModel::retrieveSelectorValidatorCouple() must be of the type string, null given, called in /home/joyarico/public_html/joyari_new/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php on line 2039
+#0 /home/joyarico/public_html/joyari_new/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(2039): IonAuth\Models\IonAuthModel->retrieveSelectorValidatorCouple(NULL)
+#1 /home/joyarico/public_html/joyari_new/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(350): IonAuth\Models\IonAuthModel->loginRememberedUser()
+#2 /home/joyarico/public_html/joyari_new/app/Controllers/Admin/Products.php(21): IonAuth\Libraries\IonAuth->loggedIn()
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Admin\Products->index()
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-03 15:52:59 --> syntax error, unexpected '*'
+#0 /home/joyarico/public_html/joyari_new/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('/admin/dashboar...')
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(812): CodeIgniter\Router\Router->handle('/admin/dashboar...')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:49:02 --> Undefined offset: 0
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 38, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('stockajax', '1')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:50:05 --> Undefined offset: 0
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 38, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('stockajax', '1')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:51:23 --> Undefined offset: 0
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/joyarico/...', 38, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('stockajax', '1')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:52:00 --> Invalid argument supplied for foreach()
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/joyarico/...', 61, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:53:28 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 16:53:59 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 16:56:07 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 16:57:22 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 17:26:10 --> array_filter() expects parameter 2 to be a valid callback, class 'App\Controllers\Products' does not have a method 'arrayFilterBrands'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', '/home/joyarico/...', 139, Array)
+#1 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(139): array_filter(Array, Array)
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 17:26:49 --> in_array() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', '/home/joyarico/...', 148, Array)
+#1 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(148): in_array('0', '1')
+#2 [internal function]: App\Controllers\Products->arrayFilter(Array)
+#3 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(139): array_filter(Array, Array)
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 17:29:59 --> Undefined property: App\Controllers\Products::$stock
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 148, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter(Array)
+#2 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(139): array_filter(Array, Array)
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-03 17:33:32 --> array_filter() expects parameter 2 to be a valid callback, function 'arrayFilter' not found or invalid function name
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', '/home/joyarico/...', 139, Array)
+#1 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(139): array_filter(Array, 'arrayFilter')
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 17:34:37 --> Trying to get property 'stock' of non-object
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 149, Array)
+#1 [internal function]: App\Controllers\Products->arrayFilter(Array)
+#2 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(139): array_filter(Array, Array)
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-03 17:37:09 --> Call to undefined function App\Controllers\search_user_by_name()
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('1')
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 18:19:17 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/joyarico/...', 142, Array)
+#1 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(142): array_multisort(Array, 4, Array)
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax('2')
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/joyari_new/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 18:35:16 --> Undefined variable: siteconfiguration
+#0 /home/joyarico/public_html/joyari_new/app/Views/frontend/pages/products/product_single.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 158, Array)
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 18:35:39 --> Trying to get property 'id' of non-object
+#0 /home/joyarico/public_html/joyari_new/app/Views/frontend/pages/products/product_single.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 210, Array)
+#1 /home/joyarico/public_html/joyari_new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/joyari_new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/joyari_new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(47): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('test-1')
+#6 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 18:45:29 --> Too few arguments to function App\Controllers\Products::stockajax(), 0 passed in /home/joyarico/public_html/joyari_new/system/CodeIgniter.php on line 931 and exactly 1 expected
+#0 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax()
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 18:46:48 --> Invalid argument supplied for foreach()
+#0 /home/joyarico/public_html/joyari_new/app/Controllers/Products.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/joyarico/...', 63, Array)
+#1 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(931): App\Controllers\Products->stockajax()
+#2 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home/joyarico/public_html/joyari_new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/joyari_new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

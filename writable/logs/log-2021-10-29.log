@@ -1,0 +1,217 @@
+CRITICAL - 2021-10-29 16:48:16 --> Use of undefined constant Record - assumed 'Record' (this will throw an Error in a future version of PHP)
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home1/reselorr...', 242, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 16:48:22 --> Use of undefined constant Record - assumed 'Record' (this will throw an Error in a future version of PHP)
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home1/reselorr...', 242, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 18:04:10 --> Use of undefined constant Record - assumed 'Record' (this will throw an Error in a future version of PHP)
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home1/reselorr...', 242, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->add()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 18:06:11 --> Undefined index: image
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/reselorr...', 48, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(23): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->index()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 18:07:47 --> Undefined index: category_id
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/reselorr...', 59, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(23): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->index()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 18:08:28 --> Undefined index: product_set
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/reselorr...', 73, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(23): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->index()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 18:08:55 --> Trying to get property 'id' of non-object
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home1/reselorr...', 132, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 18:10:44 --> Trying to get property 'id' of non-object
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home1/reselorr...', 137, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 18:10:57 --> Unknown column 'country_code' in 'where clause'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from p...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from p...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from p...')
+#3 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(846): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#5 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#7 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#8 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#9 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#10 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-29 19:46:52 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/home1/reselorr...', 844, Array)
+#1 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(844): json_decode(Object(stdClass))
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#3 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#5 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-29 19:48:00 --> Trying to get property 'sku' of non-object
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(849): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home1/reselorr...', 849, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 19:56:21 --> Trying to get property 'jsondata' of non-object
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(844): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home1/reselorr...', 844, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 20:04:30 --> Undefined property: stdClass::$ceter_diamond
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(853): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/reselorr...', 853, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 20:38:39 --> Undefined offset: 110
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/reselorr...', 474, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 20:41:50 --> Undefined offset: 110
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/reselorr...', 474, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 20:44:00 --> Undefined offset: 110
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/reselorr...', 474, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 20:47:17 --> Undefined offset: 110
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/reselorr...', 474, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 20:48:22 --> Undefined offset: 110
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/reselorr...', 474, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 20:49:30 --> Undefined offset: 110
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/reselorr...', 474, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 20:50:43 --> Undefined offset: 110
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/reselorr...', 474, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 20:54:33 --> count(): Parameter must be an array or an object that implements Countable
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(851): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home1/reselorr...', 851, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 20:55:11 --> Trying to get property 'sku' of non-object
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(857): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home1/reselorr...', 857, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 20:58:17 --> Trying to get property 'sku' of non-object
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(858): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home1/reselorr...', 858, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

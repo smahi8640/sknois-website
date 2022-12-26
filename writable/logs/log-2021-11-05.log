@@ -1,0 +1,165 @@
+CRITICAL - 2021-11-05 16:38:23 --> array_splice() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_splice() ...', '/home1/reselorr...', 852, Array)
+#1 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(852): array_splice(NULL, 0, 109)
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#3 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#5 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-05 16:38:52 --> array_splice() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_splice() ...', '/home1/reselorr...', 852, Array)
+#1 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(852): array_splice(Object(stdClass), 0, 109)
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#3 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#5 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-05 16:39:55 --> array_splice() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_splice() ...', '/home1/reselorr...', 852, Array)
+#1 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(852): array_splice(Object(stdClass), 0, 109)
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#3 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#5 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#8 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-05 16:41:06 --> Undefined variable: newArr
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(855): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 855, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 17:20:44 --> Undefined property: stdClass::$jsondata
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(851): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/reselorr...', 851, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 17:21:09 --> Undefined property: stdClass::$jsondata
+#0 /home1/reselorr/public_html/joyari/app/Views/admin/pages/products/add.php(922): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/reselorr...', 922, Array)
+#1 /home1/reselorr/public_html/joyari/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/joyari/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/joyari/system/Common.php(1271): CodeIgniter\View\View->render('admin/pages/pro...', Array, true)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(66): view('admin/pages/pro...', Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->edit('1')
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 17:25:25 --> Undefined variable: i
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(377): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 377, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->addstock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 17:25:50 --> Undefined variable: i
+#0 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(377): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 377, Array)
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->addstock()
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 17:28:49 --> syntax error, unexpected 'd' (T_STRING), expecting ')'
+#0 /home1/reselorr/public_html/joyari/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('admin/products/...')
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(812): CodeIgniter\Router\Router->handle('admin/products/...')
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 17:59:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+#0 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-05 17:59:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+#0 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-05 17:59:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+#0 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#1 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-05 18:00:10 --> Unknown column 'jsondata' in 'field list'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('UPDATE `product...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /home1/reselorr/public_html/joyari/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(589): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 18:00:10 --> Unknown column 'jsondata' in 'field list'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('UPDATE `product...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /home1/reselorr/public_html/joyari/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(589): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 18:00:10 --> Unknown column 'jsondata' in 'field list'
+#0 /home1/reselorr/public_html/joyari/system/Database/MySQLi/Connection.php(329): mysqli->query('UPDATE `product...')
+#1 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /home1/reselorr/public_html/joyari/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /home1/reselorr/public_html/joyari/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(589): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#6 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#7 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 18:33:16 --> You must use the "set" method to update an entry.
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(720): CodeIgniter\Database\BaseBuilder->update(Array)
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-05 18:33:16 --> You must use the "set" method to update an entry.
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(720): CodeIgniter\Database\BaseBuilder->update(Array)
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-05 18:33:16 --> You must use the "set" method to update an entry.
+#0 /home1/reselorr/public_html/joyari/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 /home1/reselorr/public_html/joyari/app/Controllers/Admin/Products.php(720): CodeIgniter\Database\BaseBuilder->update(Array)
+#2 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(931): App\Controllers\Admin\Products->updatestock()
+#3 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 /home1/reselorr/public_html/joyari/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/reselorr/public_html/joyari/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

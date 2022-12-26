@@ -1,0 +1,19 @@
+CRITICAL - 2022-12-07 17:05:56 --> Argument 1 passed to IonAuth\Models\IonAuthModel::login() must be of the type string, null given
+#0 [internal function]: IonAuth\Models\IonAuthModel->login(NULL, NULL, 1)
+#1 /home/joyarico/public_html/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(104): call_user_func_array(Array, Array)
+#2 /home/joyarico/public_html/app/Controllers/Checkout.php(157): IonAuth\Libraries\IonAuth->__call('login', Array)
+#3 /home/joyarico/public_html/system/CodeIgniter.php(931): App\Controllers\Checkout->login()
+#4 /home/joyarico/public_html/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#5 /home/joyarico/public_html/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-07 17:05:56 --> Uncaught ErrorException: include(): Filename cannot be empty in /home/joyarico/public_html/system/Debug/Exceptions.php:278
+Stack trace:
+#0 /home/joyarico/public_html/system/Debug/Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', '/home/joyarico/...', 278, Array)
+#1 /home/joyarico/public_html/system/Debug/Exceptions.php(278): include()
+#2 /home/joyarico/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

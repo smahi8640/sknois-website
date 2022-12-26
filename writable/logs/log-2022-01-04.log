@@ -1,0 +1,389 @@
+CRITICAL - 2022-01-04 18:40:29 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(407): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 407, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:40:39 --> Call to undefined function getCountryList()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Checkout.php(40): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 18:40:50 --> Call to undefined function getCountryList()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Checkout.php(40): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 18:43:36 --> Undefined variable: current_data
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/checkout.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 145, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Checkout.php(40): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 18:44:16 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(407): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 407, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:44:26 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(407): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 407, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:44:52 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(407): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 407, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:45:05 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(407): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 407, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:48:45 --> Undefined property: App\Controllers\Checkout::$ion_auth
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(407): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 407, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:50:04 --> Unknown column 'code' in 'where clause'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from s...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 /home/joyarico/public_html/new/app/Controllers/Checkout.php(415): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 18:50:09 --> Unknown column 'code' in 'where clause'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('select * from s...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 /home/joyarico/public_html/new/app/Controllers/Checkout.php(415): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 18:50:37 --> Undefined variable: user
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 425, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:50:39 --> Undefined variable: user
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 425, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:50:47 --> Undefined variable: user
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 425, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 18:50:52 --> Undefined variable: user
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 425, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 19:20:18 --> Call to undefined method IonAuth\Models\IonAuthModel::getRowArray()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:20:56 --> Call to undefined method IonAuth\Models\IonAuthModel::row_array()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:23:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:24:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:28:56 --> Undefined variable: print_r
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 46, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 19:29:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:30:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:35:40 --> Use of undefined constant customer_address - assumed 'customer_address' (this will throw an Error in a future version of PHP)
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/joyarico/...', 51, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 19:35:56 --> Call to undefined method App\Controllers\Confirm::render()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:37:07 --> Undefined property: CodeIgniter\View\View::$cart
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 4, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:38:20 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 19:40:31 --> Undefined property: stdClass::$customer_firstname
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 63, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:41:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 19:43:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/joyarico/public_html/new/system/View/View.php(230): include()
+#1 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#3 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 19:44:47 --> Undefined property: stdClass::$customer_country
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 77, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:45:19 --> Undefined property: stdClass::$customer_country
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 78, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:45:30 --> Undefined property: stdClass::$customer_email
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 82, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:45:54 --> Undefined property: stdClass::$customer_firstname
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 90, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:46:19 --> Undefined property: stdClass::$customer_country
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 104, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:46:34 --> Undefined property: stdClass::$customer_email
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 108, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:46:48 --> Undefined variable: coupon_data
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 152, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:47:32 --> Undefined variable: carttotal
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/checkout/confirm.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 154, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(66): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 19:54:03 --> Undefined property: App\Controllers\Confirm::$data
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 77, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 19:55:04 --> Undefined property: App\Controllers\Confirm::$load
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 79, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 19:55:34 --> Cannot use object of type stdClass as array
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:56:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 19:58:09 --> Undefined property: stdClass::$json_data
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 94, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 20:00:06 --> Undefined property: App\Controllers\Confirm::$input
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 100, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 20:01:19 --> Undefined variable: final_cost
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 142, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 20:06:19 --> Undefined property: App\Controllers\Confirm::$checkout_model
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 156, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 20:15:36 --> Unknown column 'tax' in 'field list'
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `or...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home/joyarico/public_html/new/app/Controllers/Confirm.php(156): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 20:23:46 --> Undefined variable: final_cost
+#0 /home/joyarico/public_html/new/app/Controllers/Confirm.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 207, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Confirm->confirm()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Confirm))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

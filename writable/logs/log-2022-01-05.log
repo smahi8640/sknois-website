@@ -1,0 +1,273 @@
+CRITICAL - 2022-01-05 16:36:12 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-05 16:36:43 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-05 16:37:08 --> CodeIgniter\Router\Router::main(): Failed opening required '/home/joyarico/public_html/new/app/libraries/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-05 16:38:46 --> Undefined property: App\Controllers\Paypal::$config
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 31, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(903): App\Controllers\Paypal->__construct()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 16:47:59 --> Call to a member function item() on array
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->create_payment_with_paypal()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-05 16:48:24 --> Call to a member function item() on array
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->create_payment_with_paypal()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-05 16:49:12 --> Undefined property: App\Controllers\Paypal::$input
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 52, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->create_payment_with_paypal()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 16:50:15 --> Undefined property: BraintreeHttp\HttpException::$result
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 68, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->create_payment_with_paypal()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 16:52:34 --> Undefined property: BraintreeHttp\HttpException::$result
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 68, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->create_payment_with_paypal()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 16:54:24 --> {0} route cannot be found while reverse-routing.
+#0 /home/joyarico/public_html/new/system/HTTP/RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/joyarico/public_html/new/system/Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/joyarico/public_html/new/app/Controllers/Paypal.php(79): redirect('https://www.san...')
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->create_payment_with_paypal()
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-05 17:02:47 --> Undefined variable: roduct
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/index.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 102, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Home.php(18): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-05 17:03:49 --> Trying to get property 'customer_state' of non-object
+#0 /home/joyarico/public_html/new/app/Controllers/Checkout.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/joyarico/...', 260, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Checkout->getstates()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 17:07:08 --> Undefined property: App\Controllers\Paypal::$input
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 97, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 17:09:22 --> Undefined property: App\Controllers\Paypal::$input
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 102, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 17:09:47 --> Call to a member function item() on array
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-05 17:10:28 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-05 17:10:50 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-05 17:11:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(154): App\Controllers\Paypal->cancel_check('J20220105170659', 'Payment Failed')
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 17:12:39 --> Undefined property: stdClass::$attributes
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(346): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 346, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(154): App\Controllers\Paypal->cancel_check('J20220105170659', 'Payment Failed')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 17:37:35 --> Undefined property: stdClass::$json_data
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(351): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 351, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(154): App\Controllers\Paypal->cancel_check('J20220105170659', 'Payment Failed')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 17:38:07 --> Table 'joyarico_joyari_new.order_item_statuslogs' doesn't exist
+#0 /home/joyarico/public_html/new/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `or...')
+#1 /home/joyarico/public_html/new/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home/joyarico/public_html/new/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home/joyarico/public_html/new/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home/joyarico/public_html/new/app/Controllers/Paypal.php(368): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/joyarico/public_html/new/app/Controllers/Paypal.php(154): App\Controllers\Paypal->cancel_check('J20220105170659', 'Payment Failed')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-05 17:38:52 --> Undefined property: App\Controllers\Paypal::$input
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 392, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->cancel()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 17:39:47 --> Undefined property: App\Controllers\Paypal::$requeest
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(393): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 393, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->cancel()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 17:39:59 --> Undefined variable: data
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(394): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 394, Array)
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->cancel()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 17:41:29 --> Undefined variable: record
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 208, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105174108')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 17:42:08 --> Undefined variable: orders
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/payment/payment_cancel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 12, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Paypal.php(394): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->cancel()
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-05 17:45:36 --> Undefined property: App\Controllers\Paypal::$load
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(280): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 280, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105174519')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 17:54:09 --> Argument 3 passed to view() must be of the type array, bool given, called in /home/joyarico/public_html/new/app/Controllers/Paypal.php on line 280
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(280): view('frontend/pages/...', Array, true)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105175358')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 17:54:47 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/emails/orders.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 2, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Paypal.php(280): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105175436')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-05 17:55:33 --> Undefined property: stdClass::$type
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/emails/orders.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 138, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Paypal.php(280): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105175523')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-05 17:56:02 --> Undefined property: stdClass::$tax
+#0 /home/joyarico/public_html/new/app/Views/frontend/pages/emails/orders.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 164, Array)
+#1 /home/joyarico/public_html/new/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/new/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/new/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/new/app/Controllers/Paypal.php(280): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105175550')
+#6 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#7 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#8 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-05 17:57:07 --> Undefined variable: settings
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(284): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 284, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105175638')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 17:59:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105175843')
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 18:07:13 --> Undefined property: App\Controllers\Paypal::$cart
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/joyarico/...', 317, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105180624')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 18:09:27 --> Undefined variable: session
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/joyarico/...', 315, Array)
+#1 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105180853')
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#4 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 18:10:03 --> Call to a member function destroy() on string
+#0 /home/joyarico/public_html/new/app/Controllers/Paypal.php(138): App\Controllers\Paypal->success_check('J20220105180953')
+#1 /home/joyarico/public_html/new/system/CodeIgniter.php(931): App\Controllers\Paypal->getPaymentStatus()
+#2 /home/joyarico/public_html/new/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paypal))
+#3 /home/joyarico/public_html/new/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/joyarico/public_html/new/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

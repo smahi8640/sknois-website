@@ -1,0 +1,54 @@
+CRITICAL - 2021-10-08 14:49:27 --> Undefined variable: a
+#0 /home1/reselorr/public_html/bebaby/app/Views/frontend/pages/product_details.php(335): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 335, Array)
+#1 /home1/reselorr/public_html/bebaby/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/bebaby/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/bebaby/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home1/reselorr/public_html/bebaby/app/Controllers/Products.php(41): view('frontend/pages/...', Array)
+#5 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('lg-mlr0364')
+#6 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-08 14:49:36 --> Undefined variable: a
+#0 /home1/reselorr/public_html/bebaby/app/Views/frontend/pages/product_details.php(335): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 335, Array)
+#1 /home1/reselorr/public_html/bebaby/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/bebaby/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/bebaby/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home1/reselorr/public_html/bebaby/app/Controllers/Products.php(41): view('frontend/pages/...', Array)
+#5 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('lg-mlr0363')
+#6 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-08 14:50:07 --> Undefined variable: pager
+#0 /home1/reselorr/public_html/bebaby/app/Views/frontend/pages/search.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/reselorr...', 49, Array)
+#1 /home1/reselorr/public_html/bebaby/system/View/View.php(230): include('/home1/reselorr...')
+#2 /home1/reselorr/public_html/bebaby/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home1/reselorr/public_html/bebaby/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home1/reselorr/public_html/bebaby/app/Controllers/Search.php(40): view('frontend/pages/...', Array)
+#5 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Search->index()
+#6 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-08 18:48:48 --> A non-numeric value encountered
+#0 /home1/reselorr/public_html/bebaby/app/Controllers/Products.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home1/reselorr...', 71, Array)
+#1 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Products->addcollection()
+#2 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-08 18:49:04 --> A non-numeric value encountered
+#0 /home1/reselorr/public_html/bebaby/app/Controllers/Products.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home1/reselorr...', 71, Array)
+#1 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Products->addcollection()
+#2 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-08 18:49:11 --> A non-numeric value encountered
+#0 /home1/reselorr/public_html/bebaby/app/Controllers/Products.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home1/reselorr...', 71, Array)
+#1 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(931): App\Controllers\Products->addcollection()
+#2 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 /home1/reselorr/public_html/bebaby/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/reselorr/public_html/bebaby/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

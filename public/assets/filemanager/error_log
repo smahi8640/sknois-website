@@ -1,0 +1,41 @@
+[05-Jan-2021 15:56:44 Europe/Rome] PHP Warning:  scandir(../../../media/source/): failed to open dir: No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 15:56:44 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 15:56:44 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 650
+[05-Jan-2021 15:56:44 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 659
+[05-Jan-2021 15:56:44 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 1270
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Use of undefined constant FCPATH - assumed 'FCPATH' (this will throw an Error in a future version of PHP) in /home/highviewsolar/public_html/dev/public/assets/filemanager/config/config.php on line 77
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Use of undefined constant FCPATH - assumed 'FCPATH' (this will throw an Error in a future version of PHP) in /home/highviewsolar/public_html/dev/public/assets/filemanager/config/config.php on line 86
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Use of undefined constant FCPATH - assumed 'FCPATH' (this will throw an Error in a future version of PHP) in /home/highviewsolar/public_html/dev/public/assets/filemanager/config/config.php on line 97
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  scandir(FCPATH/media/source/): failed to open dir: No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 650
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 659
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 1270
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Use of undefined constant FCPATH - assumed 'FCPATH' (this will throw an Error in a future version of PHP) in /home/highviewsolar/public_html/dev/public/assets/filemanager/config/config.php on line 77
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Use of undefined constant FCPATH - assumed 'FCPATH' (this will throw an Error in a future version of PHP) in /home/highviewsolar/public_html/dev/public/assets/filemanager/config/config.php on line 86
+[05-Jan-2021 15:59:24 Europe/Rome] PHP Warning:  Use of undefined constant FCPATH - assumed 'FCPATH' (this will throw an Error in a future version of PHP) in /home/highviewsolar/public_html/dev/public/assets/filemanager/config/config.php on line 97
+[05-Jan-2021 16:06:34 Europe/Rome] PHP Warning:  scandir(../../../media/source/): failed to open dir: No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:06:34 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:06:34 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 650
+[05-Jan-2021 16:06:34 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 659
+[05-Jan-2021 16:06:34 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 1270
+[05-Jan-2021 16:06:44 Europe/Rome] PHP Warning:  scandir(../../../media/source/): failed to open dir: No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:06:44 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:06:44 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 650
+[05-Jan-2021 16:06:44 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 659
+[05-Jan-2021 16:06:44 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 1270
+[05-Jan-2021 16:10:04 Europe/Rome] PHP Warning:  scandir(/public/media/source/): failed to open dir: No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:10:04 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:10:04 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 650
+[05-Jan-2021 16:10:04 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 659
+[05-Jan-2021 16:10:04 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 1270
+[05-Jan-2021 16:11:01 Europe/Rome] PHP Warning:  scandir(/public/media/source/): failed to open dir: No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:11:01 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:11:01 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 650
+[05-Jan-2021 16:11:01 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 659
+[05-Jan-2021 16:11:01 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 1270
+[05-Jan-2021 16:13:16 Europe/Rome] PHP Warning:  scandir(/public/media/source/): failed to open dir: No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:13:16 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 647
+[05-Jan-2021 16:13:16 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 650
+[05-Jan-2021 16:13:16 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 659
+[05-Jan-2021 16:13:16 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/highviewsolar/public_html/dev/public/assets/filemanager/dialog.php on line 1270

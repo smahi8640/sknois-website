@@ -1,0 +1,21 @@
+CRITICAL - 2022-11-30 02:15:36 --> Invalid argument supplied for foreach()
+#0 /home/joyarico/public_html/app/Views/frontend/pages/products/product_single.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/joyarico/...', 60, Array)
+#1 /home/joyarico/public_html/system/View/View.php(230): include('/home/joyarico/...')
+#2 /home/joyarico/public_html/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/joyarico/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/joyarico/public_html/app/Controllers/Products.php(50): view('frontend/pages/...', Array)
+#5 /home/joyarico/public_html/system/CodeIgniter.php(931): App\Controllers\Products->productdetail('filterproduct')
+#6 /home/joyarico/public_html/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/joyarico/public_html/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/joyarico/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 02:15:36 --> Uncaught ErrorException: include(): Filename cannot be empty in /home/joyarico/public_html/system/Debug/Exceptions.php:278
+Stack trace:
+#0 /home/joyarico/public_html/system/Debug/Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', '/home/joyarico/...', 278, Array)
+#1 /home/joyarico/public_html/system/Debug/Exceptions.php(278): include()
+#2 /home/joyarico/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
